@@ -8,8 +8,6 @@ namespace Pre2Core
         public int Width { get => Pre2Variables.Width; }
         public int Height { get => Pre2Variables.Height; }
 
-        public void Size(int width, int height) => Pre2Variables.Size = new Size(width, height);
-
         public Graphics Graphics { get => Pre2Variables.Graphics; }
         public TimeSpan DeltaTime { get => Pre2Variables.DeltaTime; }
         public int FrameCount { get => Pre2Variables.FrameCount; }

@@ -17,8 +17,6 @@ namespace Pre2Core
 
         public static string Title => Form.Text;
 
-        public static Size Size { get; set; } = Form.Size;
-
         public static int Width => Form.Width;
         public static int Height => Form.Height;
 
